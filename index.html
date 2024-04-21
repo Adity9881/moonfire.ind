@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+
+    <link rel="stylesheet" href="styless.css">
+
+    <img style="background-color: black;" src="moonfire2.png" id="facile_logo" width="200px" height="200" class="center">
+
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 35%;
+        }
+    </style>
+
+
+
+</head>
+
+
+
+<style>
+    @media (max-width: 750px) {
+        .container {
+            overflow-y: scroll;
+        }
+        .container::-webkit-scrollbar {
+            display: none;
+        }
+        input .hr .registerbtn {
+            width: calc(100% / 2 - 15px);
+        }
+    }
+</style>
+
+
+
+
+
+
+
+<div class="container">
+    <h1>Feedback Application form</h1>
+    <p>Please fill this form for company Feedback .</p>
+    <hr>
+
+    <label for="Emp-id"><b>Emp ID</b></label>
+    <br>
+    <input type="text" placeholder="Enter your EMP-ID" name="emp-id" id="emp-id" required>
+
+    <br>
+    <label for="psw"><b>Name</b></label>
+    <br>
+
+    <input type="name" placeholder="Enter your name" name="name" id="name" required>
+    <br>
+    <br>
+
+    <label for="birth"><b>Your Birth date</b></label>
+    <br>
+    <input type="date" id="birth" required>
+
+    <br>
+    <br>
+    <br>
+
+    <label for="fields"><b>Select position</b></label>
+    <br>
+    <br>
+    <br>
+
+    <select name="fields" id="fields">
+      
+        <option value="Wordpress developer">Wordpress developer</option>
+        <option value="PHP developer">PHP developer</option>
+        <option value="java developer">java developer</option>
+        <option value="python developer">python developer</option>
+        <option value="Database Administor">Database Administor</option>
+        <option value="Web developer">Web developer</option>
+
+    </select>
+
+
+    <br>
+    <br>
+    <label for="experience"><b>your Experience in moonfire</b></label>
+    <br>
+
+    <input type="text" placeholder="Your experience" name="experience" id="experience" required>
+    <br>
+    <label for="Skills"><b>Skills</b></label>
+    <br>
+
+    <input type="text" placeholder="Enter your Skills" name="Skills" id="Skills" required>
+    <br>
+    <label for="Awards"><b>Awards</b></label>
+    <br>
+
+    <input type="text" placeholder="Awards" name="Awards" id="Awards" required>
+    <br>
+    <label><b>future goals</b></label>
+    <br>
+
+    <textarea rows="4" cols="40" type="text" placeholder="future goals" name="future goals" id="future goals" required></textarea>
+    <br>
+
+
+    <hr>
+
+    <p>By Submit your information you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <a href="index2.html">
+        <button type="submit" value="Submit Form" id="registerbtn">Submit Form</button>
+    </a>
+</div>
+
+</form>
+
+<body>
+
+</body>
+
+</html>
